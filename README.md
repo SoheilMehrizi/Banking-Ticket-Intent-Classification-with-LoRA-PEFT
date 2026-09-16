@@ -97,13 +97,13 @@ flowchart TB
 | F1 (macro) | 0.597 | 0.722 |
 | Invalid-output rate | 0.00% | 1.67% |
 
-![Base model vs. fine-tuned model metrics](assets/base_vs_finetuned_metrics.png)
+![Base model vs. fine-tuned model metrics](base_vs_finetuned_metrics.png)
 
 ### Confusion matrices
 
 Fine-tuning tightens the diagonal noticeably compared to the base model, which frequently produces near-miss or malformed labels.
 
-![Confusion matrices: base vs. fine-tuned](assets/confusion_matrices.png)
+![Confusion matrices: base vs. fine-tuned](confusion_matrices.png)
 
 ### Sample predictions after fine-tuning
 
